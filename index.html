@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web sederhana</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="dark:bg-gray-900">
+    <nav class="dark:bg-gray-900 mx-auto w-full text-white p-5 lg:flex lg:justify-between bg-blue-500">
+        <div class="flex justify-between">
+         <div class="nav-logo text-center md:text-left">
+             <a href="#" class="text-xl">Tailwind Indo</a>
+         </div>
+         <button class="lg:hidden toggle">
+             <ion-icon name="close-outline" class="text-2xl hidden close"></ion-icon>
+             <ion-icon name="menu-outline" class="text-2xl open"></ion-icon>
+         </button>
+        </div>
+         <div class="dark:bg-gray-800 lg:dark:bg-gray-900 nav-link hidden flex  lg:w-3/6 lg:flex flex-col lg:flex-row transition bg-blue-300 py-5 lg:py-0 lg:bg-blue-500">
+             <a href="#" class="hover:text-blue-500 lg:hover:text-blue-300 transition delay-300 mx-3  mt-4 lg:mt-0 text-center ">Home</a>
+             <a href="#" class=" hover:text-blue-500 lg:hover:text-blue-300 transition delay-300 mx-3  mt-4 lg:mt-0 text-center ">About</a>
+             <a href="#" class="hover:text-blue-500 lg:hover:text-blue-300 transition delay-300 mx-3  mt-4 lg:mt-0 text-center ">Contact</a>
+             <a href="#" class="hover:text-blue-500 lg:hover:text-blue-300 transition delay-300 mx-3  mt-4 lg:mt-0 text-center ">learn now</a>
+             <input type="text" class="py-1 px-2 focus:outline-none text-black rounded-md mt-4 lg:mt-0 lg:w-2/6 w-5/6 mx-auto lg:mx-0" placeholder="cari dokumentasi">
+             <button class="mt-4 lg:mt-0 text-center items-center flex mx-auto dark:bg-gray-700 p-3 lg:p-1 ">Darkmode<ion-icon name="moon-outline" class="text-l ml-3"></ion-icon></button>
+           
+         </div>
+       
+    </nav>
+    <div class="bg-blue-500 w-full dark:bg-gray-900">
+     
+        <section class="hero text-center text-white p-5 h-screen flex justify-around items-center">
+            <div class="hero-left">
+                <h1 class="text-5xl mb-4">Tailwind Indo</h1>
+                <h2 class="text-xl">Tempat Dokumentasi & belajar web programming secara mandiri</h2>
+            </div>
+        </section>
+    </div>
+    <section class="about text-center h-screen flex justify-around items-center bg-blue-400 text-white dark:bg-gray-800">
+           <div class="md:w-6/12 w-5/6 mx-auto font-sans ">
+            <h2 class="text-2xl md:text-3xl">About Tailwind indo</h2>
+            <p class="mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nulla sed natus debitis quia distinctio autem at quas quidem nemo accusamus repudiandae voluptates quasi, magnam odio, esse assumenda nobis exercitationem!
+            </p>
+            <p class="mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laudantium similique eveniet dicta delectus fuga quas inventore eius error commodi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt maiores quasi ducimus nihil illum totam eligendi nisi repellat. Totam, sapiente! Dolor repellat magni dolorum corrupti at minus, minima eligendi.
+            </p>
+           </div>
+    </section>
+    <section class=" dark:bg-gray-900 learn md:h-screen flex justify-around items-center bg-blue-500 text-white">
+        <div class="md:w-6/12 w-5/6 text-center">
+            <h2 class="md:text-3xl text-2xl mb-5 mt-4 sm:mt-4">learn now</h2>
+            <div class="card-list flex justify-around md:justify-between flex-wrap">
+                <div class="dark:bg-gray-700 dark:border-gray-500 card text-center md:w-5/12 border-4 border-blue-400 p-3 rounded-xl bg-blue-600 text-white my-5 ">
+                   <h3 class="text-xl mt-4">Basic</h3>
+                   <p class="text-l mt-4" >Pas untuk yang baru mau masuk</p> 
+                   <button class="bg-blue-300 p-3 mt-4 rounded-md hover:bg-blue-500 transition delay-300 dark:bg-gray-800">Ambil kelas</button>
+                </div>
+                <div class="card dark:bg-gray-700 dark:border-gray-500 text-center md:w-5/12 border-4 border-blue-400 p-3 rounded-xl bg-blue-600 text-white  my-5">
+                    <h3 class="text-xl mt-4">medium</h3>
+                    <p class="text-l mt-4" >Pas untuk yang baru mau masuk</p> 
+                    <button class="bg-blue-300 p-3 mt-4 rounded-md hover:bg-blue-500 transition delay-300 dark:bg-gray-800">Ambil kelas</button>
+                 </div>
+                 <div class="card dark:bg-gray-700 dark:border-gray-500 text-center md:w-5/12 border-4 border-blue-400 p-3 rounded-xl bg-blue-600 text-white my-5 mb-10 sm:mb-10">
+                    <h3 class="text-xl mt-4">expert</h3>
+                    <p class="text-l mt-4" >Pas untuk yang baru mau masuk</p> 
+                    <button class="bg-blue-300 dark:bg-gray-700 dark:border-gray-500 p-3 mt-4 rounded-md hover:bg-blue-500 transition delay-300 dark:bg-gray-800">Ambil kelas</button>
+                 </div>
+                 <div class="card dark:bg-gray-700 dark:border-gray-500 text-center md:w-5/12 border-4 border-blue-400 p-3 rounded-xl bg-blue-600 text-white my-5 mb-10 sm:mb-10">
+                    <h3 class="text-xl mt-4">orang gabut</h3>
+                    <p class="text-l mt-4" >Pas untuk yang baru mau masuk</p> 
+                    <button class="bg-blue-300 p-3 mt-4 rounded-md hover:bg-blue-500 transition delay-300 dark:bg-gray-800">Ambil kelas</button>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="dark:bg-gray-800 contact h-screen flex justify-around items-center bg-blue-400 text-white text-center">
+        <div>
+            <h2 class="mt-2 text-1xl">Contact Kami</h2>
+            <p class="mt-4 text-xl">Email : YNTKTS@gmail.com</p>
+        </div>
+    </section>
+    <section class="footer text-center p-3 bg-black text-white">
+        <h3>2021 &copy; Tailwind indo</h3>
+    </section>
+    <script src="home.js"></script>
+</body>
+</html>
